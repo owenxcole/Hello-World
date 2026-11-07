@@ -1,0 +1,35 @@
+
+.bio {
+  font-family: monospace;
+  color: #d0d8dc;
+}
+
+.bio h2 {
+  font-size: 32px;
+  letter-spacing: 5px;
+}
+
+.bio h2 span {
+  color: #8dffbb;
+  animation: blink 1s infinite;
+}
+
+.bio p {
+  color: #8dffbb;
+  font-size: 16px;
+}
+
+.bio small {
+  color: #89949a;
+}
+
+.status {
+  margin-top: 15px;
+  color: #8dffbb;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
